@@ -1,0 +1,26 @@
+Mecha Name:
+Cost:
+Weight:
+APT:
+Maneuver_Pool:
+Configuration_Name:
+Configuration_MV:
+Configuration_MR:
+Configuration_Land_MA:
+Configuration_Flight_MA:
+
+#Sensor Systems
+CP:
+Tons:
+Sensor_Name:
+Sensor_Location:
+Sensor_Location:
+Sensor_Range:
+Sensor_Comm:
+Sensor_Kills:
+Sensor_CP:
+Sensor_Eff:
+Sensor_Space:
+Sensor_Cost:
+
+# Movement Systems
