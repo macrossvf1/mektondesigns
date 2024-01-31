@@ -38,4 +38,4 @@
 [-] Conversion tools - taking descriptions and stats and translating this into game values.
 [-] standard output to mirror character sheets.
 [-] main loop
-
+[-] print mecha design to PDF format (make it pretty).
