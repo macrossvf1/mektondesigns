@@ -1,0 +1,41 @@
+[+] frame class
+[-] range weapons class
+[-] melee weapons class
+[-] power plants class
+[-] shields class
+[-] additive systems
+	[-] crew class
+	[-] sensors class
+	[-] EW class
+	[-] Remote Control class
+	[-] options class
+[-] Special Systems
+	[-] Fuel class
+	[-] Propulsion class
+		[-] Boosters
+	[-] Command Armor
+[-] Cost Multipliers
+	[-] Powerplants
+	[-] Cockpit Controls
+	[-] Hydraulics
+	[-] Environmentals
+	[-] Meneuver Verniers
+	[-] ACE
+	[-] Internal Automation
+	[-] Cloaking
+	[-] Stealth
+	[-] Shadow Imager
+	[-] ESPer Lens
+	[-] Thought Control
+	[-] Turbocharger
+	[-] Techno-Organics
+	[-] Lightspeed
+	[-] Teleportation
+	[-] Transformation
+	[-] Transformation Options
+	[-] Combiners
+[-] Scaling system for balance. 
+[-] Conversion tools - taking descriptions and stats and translating this into game values.
+[-] standard output to mirror character sheets.
+[-] main loop
+
