@@ -77,24 +77,29 @@ class BeamWeapons:
         [300,7,1],
         [360,9,1]
 
-    burst_value
+    # [Burst value, Cost multiplier]
+    burst_value = 
+        [2,1.5],
+        [3,2],
+        [4,2.5],
+        [5,3],
+        [6,3.5],
+        [7,4],
+        [8,4.5],
+        [math.inf,5]
 
-    clip_fed
+    # Cost Modifier
+    clip_fed = .9
 
-    anti_personnel
+    # [Range multiplier, Cost multiplier]
+    anti_personnel = [1,1.8]
+    anti_missile = [1,1.8]
+    anti_missile_anti_personnel = [1,1.8]
+    all_purpose = [1,2.6]
 
-    anti_missile
-
-    anti_missile_anti_personnel
-
-    all_purpose
-
-    fragile
-
-    long_range
-
-    hydro
-
-    mega_beam
-
-    disruptor
+    # Cost multipliers
+    fragile = 1
+    long_range = 1.33
+    hydro = .2
+    mega_beam = 10
+    disruptor = 2
