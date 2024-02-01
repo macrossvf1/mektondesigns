@@ -1,0 +1,260 @@
+# Mekton Build Profile for a Valkyrie II VF-2SS Standard Space Fighter.
+# Information is from Palladium Books Macross II Roleplaying Game and adapted to Mekton Zeta rules.
+#
+
+# Terms 
+	APT - 
+	B.Mod - 
+	CM - 
+	CP - Construction Points
+	DMG - Damage
+	DC - 
+	Eff - Efficiency
+	K - Kills, like hitpoints.
+	Loc - Location:
+	MA - 
+	MP - Maneuver Pool
+	MR - 
+	MV - Manuever Value
+	Rng - Range
+	SH - Shots
+	SP - 
+	Spc - Space, typically equivalent to CP.
+	WA - Wide Angle
+
+Mecha Name: 'Valkyrie II VF-2SS Standard Space Fighter'
+Weight: 
+Cost:
+APT:
+Maneuver Pool (MP):
+Configuration: Humanoid (Mekton) 
+	MV: 
+	MR:
+	Land MA:
+	Flight MA:
+Configuration: Hybrid
+	MV: 
+	MR:
+	Land MA:
+	Flight MA:
+Configuration: Flight
+	MV: 
+	MR:
+	Land MA:
+	Flight MA:
+
+# Sensor Systems
+Construction Points (CP):
+Tons:
+Sensor: Main
+	Location: Head
+	Range:
+	Communications
+	Kills:
+	Notes:
+Sensor: BackupM
+	Location: Head
+	Range:
+	Communications
+	Kills:
+	Notes:
+
+# Movement Systems
+Construction Points (CP):
+Tons:
+Movement System:
+	Location:
+	Kills:
+Movement System:
+	Location:
+	Kills:
+Movement System:
+	Location:
+	Kills:
+Movement System:
+	Location:
+	Kills:
+
+# Main Systems:
+Construction Points (CP):
+Tons:
+Powerplant:
+	Source:
+	XS:
+	MV:
+	MA:
+	MP:
+	Cost:
+Control System:
+	M-Pool:
+	Cost:
+Hydraulics:
+	Space:
+	Melee:
+	Lift:
+	Cost:
+System:
+	Notes:
+	Space:
+	Efficiency:
+	Cost:
+System:
+	Notes:
+	Space:
+	Efficiency:
+	Cost:
+
+# Command Armor, Armor & Servos
+Construction Points (CP):
+Tons:
+Servomodule: Head
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+Servomodule: Torso
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Right Arm
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Left Arm
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Right Leg
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Left Leg
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Right Wing
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+Servomodule: Left Wing
+	CA-SP
+	CA-DC:
+	CA-AbC:
+	SP:
+	DC:
+	AbC:
+	Kills:
+	Add:
+	Add:
+
+# Weapons
+Weapon: Gun Pod
+	Wide-Angle (WA):
+	Range:
+	Damage:
+	Shots:
+	Kills:
+	Location (Loc):
+	Construction Points (CP):
+	Efficiency (Eff):
+	Space:
+	Cost:
+	Notes:
+Weapon: Missiles
+	Wide-Angle (WA):
+	Range:
+	Damage:
+	Shots:
+	Kills:
+	Location (Loc):
+	Construction Points (CP):
+	Efficiency (Eff):
+	Space:
+	Cost:
+	Notes:
+Weapon: Lasers
+	Wide-Angle (WA):
+	Range:
+	Damage:
+	Shots:
+	Kills:
+	Location (Loc): Head
+	Construction Points (CP):
+	Efficiency (Eff):
+	Space:
+	Cost:
+	Notes:
+
+# Additive Systems, Subassemblies
+Construction Points (CP):
+Tons:
+Crew:
+	Location (Loc):
+	Enclosure:
+	Notes:
+	CP:
+	Eff:
+	Spc:
+	Cost:
+Subassemblies: 1000km Fuel
+	Location: Torso
+	Kills: NA
+
+# Shielding
+Shield:
+	DA:
+	SP:
+	DC:
+	AbC:
+	Location:
+	Notes:
+	
+# Remote Information
+Control Multiple: NA
+Control:
+Operation:
+Servos and Armor: 
+Weapons:
+Other Systems:
+Weight:
+MV:
+MR:
+Skill:
+L-MA:
+F-MA:
+MP:
+
+
