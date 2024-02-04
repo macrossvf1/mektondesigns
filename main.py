@@ -5,6 +5,7 @@ class_list = ['superlight', 'lightweight', 'striker', 'medium_striker', 'heavy_s
 armor_class_list = ['ablative', 'standard', 'alpha', 'beta', 'gamma']
 ram_armor_class_list = ['level 1', 'level 2', 'level 3', 'level 4']
 
+user_name = ""
 user_CP = ""
 
 # Mekton Parts, putting it all together for a complete mekton.
@@ -25,6 +26,18 @@ user_additives = ""
 user_specials = ""
 user_multis = ""
 
+def getInitialData():
+    global user_name
+    global user_CP
+
+    user_name = input("What is your name?\n ")
+    
+    try:
+        user_CP = input("How many Construction Points will you need?\n")
+        user_CP = int(user_CP)
+    except ValueError:
+        input("That's not an acceptable value.")
+        
 
 def torsoServo(args):
     # Torso Servo stats
@@ -200,7 +213,7 @@ def ramArmor(args):
 
     return ram_armor[args]
 
-def ask():
+def buildFrame():
     global user_torso
     global user_head
     global user_arm_right
@@ -331,9 +344,12 @@ def ask():
             break
 
 if __name__ == "__main__":
-    ask()
+    getInitialData()
+    buildFrame()
 
     print(
+        "Name: " + user_name + "\n",
+        "CP: " + str(user_CP) + "\n\n",
         "Current Build \n",
         "Torso: " + str(user_torso) + "\n",
         "Head: " + str(user_head) + "\n",
