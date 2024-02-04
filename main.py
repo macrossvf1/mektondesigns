@@ -18,6 +18,7 @@ user_wing = ""
 user_tail = ""
 user_pod = ""
 user_armor = ""
+user_armortype = ""
 user_ram_armor = ""
 user_weapons = ""
 user_additives = ""
@@ -210,6 +211,7 @@ def ask():
     global user_tail
     global user_pod 
     global user_armor
+    global user_armortype
     global user_ram_armor
     global user_weapons
     global user_additives
@@ -291,6 +293,18 @@ def ask():
             user_leg_left = {user_leg_left_selection: legServo(user_leg_left_selection)}
             os.system('clear')
 
+            # Ask the user to select a Wing.
+            user_wing_selection = input("Select the Wing Class: " + class_selection_prompt)
+            user_wing_selection = class_list[int(user_wing_selection)-1]
+            user_wing = {user_wing_selection: wingServo(user_wing_selection)}
+            os.system('clear')
+
+            # Ask the user to select a Tail.
+            user_tail_selection = input("Select the Tail Class: " + class_selection_prompt)
+            user_tail_selection = class_list[int(user_tail_selection)-1]
+            user_tail = {user_tail_selection: tailServo(user_tail_selection)}
+            os.system('clear')
+
             # Ask the user to select a Armor.
             user_armor_selection = input("Select the Armor Class: " + class_selection_prompt)
             user_armor_selection = class_list[int(user_armor_selection)-1]
@@ -327,6 +341,9 @@ if __name__ == "__main__":
         "Arm, Left: " + str(user_arm_left) + "\n",
         "Leg, Right: " + str(user_leg_right) + "\n",
         "Leg, Left: " + str(user_leg_left) + "\n",
-        "Armor: " + str(user_ram_armor) + "\n",
+        "Wing: " + str(user_wing) + "\n",
+        "Tail: " + str(user_tail) + "\n",
+        "Armor: " + str(user_armor) + "\n",
+        "Armor Type: " + str(user_armortype) + "\n",
         "RAM Armor: " + str(user_ram_armor) + "\n",
     )
