@@ -1,4 +1,7 @@
 import os, re
+from beamweapons import BeamWeapon
+
+#big_beam_gun = BeamWeapon()
 
 class_list = ['superlight', 'lightweight', 'striker', 'medium_striker', 'heavy_striker', 'mediumweight',
                   'light_heavy', 'medium_heavy', 'armored_heavy', 'super_heavy', 'mega_heavy']
@@ -344,9 +347,12 @@ def buildFrame():
             break
 
 if __name__ == "__main__":
-    getInitialData()
-    buildFrame()
+    # Build processes
+    #getInitialData()
+    #buildFrame()
+    buildBeamWeapon()
 
+    # Summary
     print(
         "Name: " + user_name + "\n",
         "CP: " + str(user_CP) + "\n\n",
